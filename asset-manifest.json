@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bulls-and-cows/static/css/main.6f811a81.chunk.css",
+    "main.js": "/bulls-and-cows/static/js/main.b99d8920.chunk.js",
+    "main.js.map": "/bulls-and-cows/static/js/main.b99d8920.chunk.js.map",
+    "runtime-main.js": "/bulls-and-cows/static/js/runtime-main.bdd2f1e2.js",
+    "runtime-main.js.map": "/bulls-and-cows/static/js/runtime-main.bdd2f1e2.js.map",
+    "static/css/2.daae4a1b.chunk.css": "/bulls-and-cows/static/css/2.daae4a1b.chunk.css",
+    "static/js/2.2d43daaa.chunk.js": "/bulls-and-cows/static/js/2.2d43daaa.chunk.js",
+    "static/js/2.2d43daaa.chunk.js.map": "/bulls-and-cows/static/js/2.2d43daaa.chunk.js.map",
+    "index.html": "/bulls-and-cows/index.html",
+    "static/css/2.daae4a1b.chunk.css.map": "/bulls-and-cows/static/css/2.daae4a1b.chunk.css.map",
+    "static/css/main.6f811a81.chunk.css.map": "/bulls-and-cows/static/css/main.6f811a81.chunk.css.map",
+    "static/js/2.2d43daaa.chunk.js.LICENSE.txt": "/bulls-and-cows/static/js/2.2d43daaa.chunk.js.LICENSE.txt",
+    "static/media/bull.3e00f196.jpg": "/bulls-and-cows/static/media/bull.3e00f196.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdd2f1e2.js",
+    "static/css/2.daae4a1b.chunk.css",
+    "static/js/2.2d43daaa.chunk.js",
+    "static/css/main.6f811a81.chunk.css",
+    "static/js/main.b99d8920.chunk.js"
+  ]
+}
