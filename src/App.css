@@ -19,8 +19,8 @@
   flex-direction: column;
   color: black;
   background-color: #FDF4DC;
-  width: 650px;
-  min-height: 650px;
+  max-width: 650px;
+  min-height: 400px;
   border-radius: 20px;
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
   overflow: auto;

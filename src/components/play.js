@@ -88,7 +88,6 @@ const Play = () => {
       <div className="p-5 pb-0 d-flex justify-content-between">
         <Button variant="warning" onClick={reset}>Restart</Button>
         {!!gameEnd ? <span>{code}</span> : <span>Good luck!</span>}
-        {<span>{code}</span>}
         <LinkContainer to="/">
           <Button variant="danger">Quit</Button>
         </LinkContainer>
