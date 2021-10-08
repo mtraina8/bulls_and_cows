@@ -8,6 +8,7 @@ import InputGroup from 'react-bootstrap/InputGroup'
 import pluralize from 'pluralize'
 
 const Play = () => {
+  const MAX_NUMBER_OF_TRIES = 12
   const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
   const generateCode = () => `${randomIntFromInterval(1000, 10000)}`
 
@@ -24,7 +25,7 @@ const Play = () => {
   }
 
   useEffect(() => {
-    if (attempts.length >= 8 && !gameEnd) {
+    if (attempts.length >= MAX_NUMBER_OF_TRIES && !gameEnd) {
       setGameEnd("You lost :(")
     } else if (attempts.length > 0 && attempts[attempts.length - 1].guess === code) {
       setGameEnd("You won :)")
