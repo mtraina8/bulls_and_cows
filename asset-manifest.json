@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bulls_and_cows/static/css/main.49fea6d5.chunk.css",
-    "main.js": "/bulls_and_cows/static/js/main.053f9e12.chunk.js",
-    "main.js.map": "/bulls_and_cows/static/js/main.053f9e12.chunk.js.map",
+    "main.js": "/bulls_and_cows/static/js/main.70c412bc.chunk.js",
+    "main.js.map": "/bulls_and_cows/static/js/main.70c412bc.chunk.js.map",
     "runtime-main.js": "/bulls_and_cows/static/js/runtime-main.f06b0996.js",
     "runtime-main.js.map": "/bulls_and_cows/static/js/runtime-main.f06b0996.js.map",
     "static/css/2.daae4a1b.chunk.css": "/bulls_and_cows/static/css/2.daae4a1b.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.daae4a1b.chunk.css",
     "static/js/2.2d43daaa.chunk.js",
     "static/css/main.49fea6d5.chunk.css",
-    "static/js/main.053f9e12.chunk.js"
+    "static/js/main.70c412bc.chunk.js"
   ]
 }
