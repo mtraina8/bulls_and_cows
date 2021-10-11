@@ -6,10 +6,14 @@ import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
 import pluralize from 'pluralize'
 import { LinkContainer } from 'react-router-bootstrap'
+import Base64 from 'crypto-js/enc-base64';
+import Utf8 from 'crypto-js/enc-utf8'
 
 const Play = () => {
   const MAX_NUMBER_OF_TRIES = 10
   const CHARACTER_VARIANCE = 6
+  const encode = (text) => Base64.stringify(Utf8.parse(text));
+  const decode = (data) => Base64.parse(data).toString(Utf8);
 
   const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
   const letterFromNumber = (number) => String.fromCharCode(65 + number)
@@ -26,13 +30,15 @@ const Play = () => {
     for (let i = 0; i < 4; i++) {
       code += letterFromNumber(randomIntFromInterval(1, CHARACTER_VARIANCE - 1))
     }
-    return code
+    return encode(code)
   };
 
-  const [code, setCode] = useState(generateCode())
+  const [encodedCode, setCode] = useState(generateCode())
   const [attempts, setAttempts] = useState([])
   const [currentGuess, setCurrentGuess] = useState('')
   const [gameEnd, setGameEnd] = useState(null)
+
+  const code = decode(encodedCode)
 
   const reset = () => {
     setAttempts([])
