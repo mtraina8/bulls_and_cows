@@ -8,7 +8,7 @@ import pluralize from 'pluralize'
 import { LinkContainer } from 'react-router-bootstrap'
 
 const Play = () => {
-  const MAX_NUMBER_OF_TRIES = 12
+  const MAX_NUMBER_OF_TRIES = 10
   const CHARACTER_VARIANCE = 6
 
   const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)

@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => (
   <Container className="p-4">
-    <p>Bulls and Cows is a code guessing game. A random code is generated every time you play. Enter your guess at the bottom, consisting of 4 letters from A - F, and get a hint back that follows the form below</p>
+    <p>Bulls and Cows is a code guessing game. A random code is generated every time you play. Enter your guess at the bottom, consisting of 4 letters from A - F, and get a hint back that follows the form below. You have a total of 10 guesses</p>
     <h4>Bulls</h4>
     <p>An individual letter is deemed a 'bull' if it exists in the code <b>and</b> it is in the correct location. For example, with a code of "ABDDE" and a guess of "EBCCC", the "B" in the guess is the correct letter in the correct location</p>
     <h4>Cows</h4>
