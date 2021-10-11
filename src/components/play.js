@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { LinkContainer } from 'react-router-bootstrap'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
-import Table from 'react-bootstrap/Table'
 import Form from 'react-bootstrap/Form'
 import InputGroup from 'react-bootstrap/InputGroup'
+import React, { useEffect, useState } from 'react'
+import Table from 'react-bootstrap/Table'
 import pluralize from 'pluralize'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const Play = () => {
   const MAX_NUMBER_OF_TRIES = 12
